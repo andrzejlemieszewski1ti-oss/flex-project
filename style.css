@@ -138,7 +138,7 @@ span{
     gap: 10px;
 }
 .container__content > div{
-    flex: 0 0 42%;
+    flex: 0 0 35%;
     
 }
 .align-content__flex-end{
@@ -166,4 +166,5 @@ span{
     gap: 10px;
 
 }
+
 

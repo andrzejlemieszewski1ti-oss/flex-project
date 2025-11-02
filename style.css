@@ -85,13 +85,19 @@ span{
     display: flex;
     background-color: lightblue;
     height: 120px;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    text-align: center;
 }
 .container__content{
     display: flex;
     background-color: lightblue;
     height: 300px;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+}
+.container__content > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .align-items__normal{
@@ -131,15 +137,12 @@ span{
 .align-items__stretch{
     align-items: stretch;
 }
-
-
 .align-content__flex-start{
     align-content: flex-start;
     gap: 10px;
 }
 .container__content > div{
     flex: 0 0 44.88%;
-    
 }
 .align-content__flex-end{
     align-content: flex-end;
@@ -166,6 +169,7 @@ span{
     gap: 10px;
 
 }
+
 
 
 
